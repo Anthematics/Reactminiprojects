@@ -29,7 +29,7 @@ class Contact extends React.Component {
             Jasonharder2@gmail.com
           </li>
           <li>
-            416.317.1353
+            555.666.7777
           </li>
         </ul>
       );
