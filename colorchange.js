@@ -27,3 +27,4 @@ changeColor() {
 
 ReactDOM.render(<Toggle />,document.getElementById('app'))
 
+// Add colors to change with ternerary operator (check it on docs to see if you can)
