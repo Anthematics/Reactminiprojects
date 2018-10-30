@@ -15,15 +15,14 @@ class Parent extends React.Component {
 
 ReactDOM.render(<Parent />, document.getElementById('app'))
 
-/* Great work! You just passed information from a stateful component to a stateless component. You will be doing a lot of that.
+/* this exercise shows how to pass information from a stateful component to a stateless component. 
 
-You learned earlier that a component can change its state by calling this.setState(). You may have been wondering: how does a component change its props?
+A component can change its state by calling this.setState(). 
 
-The answer: it doesn't!
+A component should never update this.props.
 
-A component should never update this.props. Look at Bad.js to see an example of what not to do.
-
-This is potentially confusing. props and state store dynamic information. Dynamic information can change, by definition. If a component can't change its props, then what are props for?
+This is potentially confusing. props and state store dynamic information. Dynamic information can change, by definition. 
+If a component can't change its props, then what are props for?
 
 A React component should use props to store information that can be changed, but can only be changed by a different component.
 
