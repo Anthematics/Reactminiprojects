@@ -35,3 +35,6 @@ export class Child extends React.Component {
   }
 }
 /* This is an example of a stateless component that can update its parents state.
+
+a stateful, parent component passes down an event handler to a stateless, child component. 
+The child component then uses that event handler to update its parent's state.
